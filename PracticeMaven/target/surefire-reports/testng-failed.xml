@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.maven.VariousTests">
+        <methods>
+          <include name="Livecareer"/>
+        </methods>
+      </class> <!-- com.maven.VariousTests -->
+      <class name="com.maven.doubleclick">
+        <methods>
+          <include name="Initalization"/>
+          <include name="Double"/>
+          <include name="Cleanup"/>
+          <include name="drag"/>
+        </methods>
+      </class> <!-- com.maven.doubleclick -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
